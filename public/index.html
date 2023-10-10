@@ -6,7 +6,7 @@
     <title>Planning Poker</title>
 </head>
 <body>
-    <h1>Planning Poker</h1>
+    <h1>HiTS Planning Poker</h1>
 <div>
     <input type="text" id="username" placeholder="Enter your name">
     <button onclick="setUsername()">Set Name</button>
@@ -14,10 +14,13 @@
 <div id="adminCheckbox" style="display: none;">
     <input type="checkbox" id="isAdmin"> I am Admin
 </div>
+<br>
 <div id="votingButtons" style="display: none;">
     <button onclick="castVote('1')">1</button>
     <button onclick="castVote('2')">2</button>
     <button onclick="castVote('3')">3</button>
+    <button onclick="castVote('5')">5</button>
+    <button onclick="castVote('8')">8</button>
     <!-- Add more buttons as needed -->
 </div>
 <div id="revealButton" style="display: none;">
